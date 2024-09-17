@@ -19,3 +19,33 @@ ng serve
 
 ng g c components/header
 ng g c components/tasks
+ng g c components/tasks-item
+
+ng g s services/tasks
+
+#### Backend
+criar o arquivo
+db.json
+
+* db.json conteúdo
+{
+    "tasks": [
+        {
+            "id": "1",
+            "tarefas": "Task 1",
+            "categoria": "This is the first task.",
+            "concluido": false
+        },
+        {
+            "id": "2",
+            "tarefas": "Task 2",
+            "categoria": "This is the first task 2.",
+            "concluido": true
+        }
+    ]
+}
+npm i json-server
+
+npx json-server db.json
+
+http://localhost:3000/tasks
