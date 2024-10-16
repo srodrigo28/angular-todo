@@ -1,1 +1,8 @@
-<p>tasks works!</p>
+<p>{{ tarefaTitle }}</p>
+
+<app-task-item 
+    *ngFor="let tarefa of tarefas" 
+    [tarefa]="tarefa"
+    (onDeleteTask)="deleteTask($event)"
+>
+</app-task-item>

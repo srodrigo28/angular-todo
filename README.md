@@ -12,33 +12,30 @@ https://www.youtube.com/watch?v=61QSKu2u5GU
 * criando projeto
 ng new ListaDeTarefasAngular
 
-* rodando o projeto
-ng serve
-
 * criando componets
 
-ng g c components/header
-ng g c components/tasks
-ng g c components/tasks-item
+* ng g c components/header
+* ng g c components/tasks
+* ng g c components/task-item
 
-ng g s services/tasks
+* ng g s services/tasks
 
 #### Backend
-criar o arquivo
-db.json
+* criar o arquivo
+* db.json
 
 * db.json conteúdo
 {
     "tasks": [
         {
             "id": "1",
-            "tarefas": "Task 1",
+            "tarefa": "Task 1",
             "categoria": "This is the first task.",
             "concluido": false
         },
         {
             "id": "2",
-            "tarefas": "Task 2",
+            "tarefa": "Task 2",
             "categoria": "This is the first task 2.",
             "concluido": true
         }
@@ -46,6 +43,8 @@ db.json
 }
 npm i json-server
 
-npx json-server db.json
-
 http://localhost:3000/tasks
+
+#### rodando o projeto
+npx json-server db.json
+npm start
