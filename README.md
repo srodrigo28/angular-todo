@@ -1,5 +1,15 @@
 ### Lista de projetos
 
+### Tecnologias
+* > Angular
+* > Typescript
+* > Json-Server
+* > Bootstrap
+
+#### Telas
+
+<img src="./screens/page-1.png" alt="tela 01">
+
 #### Ref.
 https://www.youtube.com/watch?v=61QSKu2u5GU&t=1s
 
